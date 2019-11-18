@@ -1,11 +1,9 @@
-namespace Demo.Builder
+export class patternFollower
 {
-    export class patternImplementation {
-        /**
-         *Constructor for the builder pattern class
-         */
-        constructor(public projectName : string) {
-            console.log(`Project ${projectName} initialized`);
-        }
+    /**
+     *Constructor for the builder pattern class
+    */
+    constructor(public projectName : string) {
+        console.log(`Project ${projectName} initialized`);
     }
 }
