@@ -1,0 +1,4 @@
+export enum Types {
+    EMAIL_ADDRESS_VALIDATOR,
+    PHONE_NUMBER_VALIDATOR
+}
